@@ -1,0 +1,34 @@
+Projeto_Vetor_Objeto
+classes
+paciente
+medico
+consulta
+
+telas
+
+Telalogin - Jframe
+TelaPrincipal -Jframe
+TelaPaciente - JInternalFrame
+TelaMedico - JInternalFrame
+TelaConsulta - JInternalFrame
+
+Img
+
+Paciente
+- Nome:String
+- Cpf:String
+- Endereço:String
+- Celular:String
+
+Medico
+- Nome:String
+- CRM:String
+- Especiabilidade:String
+
+Consulta
+- Paciente:String
+- Medico:String
+- Data:String
+- Horário:String
+- Valor:Double
+

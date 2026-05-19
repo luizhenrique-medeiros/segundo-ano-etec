@@ -1,0 +1,48 @@
+tb01_usuario:
+
+tb01_id (primary)
+tb01_nome
+tb01_login
+tb01_senha
+
+tb02_turma conecta com tb04_matricula:
+
+tb02_cod_turma (primary)
+tb02_nome
+tb02_serie
+
+tb03_aluno conecta com tb04_matricula:
+
+tb03_rm (primary)
+tb03_nome
+tb03_endereço
+tb03_telefone
+tb03_cpf
+
+tb04_matricula conecta com tb02_turma e tb03_aluno:
+
+tb04_num (primary)
+tb04_cod_turma(FK)
+tb04_rm(FK)
+tb04_situação
+tb04_ano_letivo
+
+
+Projeto Matricula
+
+Source package
+classes
+img
+telas
+
+Telas:
+
+Jframe:
+telalogin :campo login e senha e botão de entrar
+telaprincipal : 4 botões na esquerda um em baixo do outro (usuario,aluno,turma e matricula
+
+JInternalFrame
+telaaluno : 5 campos (rm,nome,endereço,telefone,cpf) 2 botão salvar e excluir e uma tabela? em baixo com campos rm,nome,end,tel e cpf
+
+telaturma
+telamatricula
