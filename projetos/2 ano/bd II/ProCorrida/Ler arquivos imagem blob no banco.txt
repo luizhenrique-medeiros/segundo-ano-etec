@@ -1,0 +1,34 @@
+
+  
+5. Para ler a foto no banco e carregar na tela
+==============================================
+
+      try {     
+        
+        Conexao objetoBD = new Conexao();
+        String sql = "SELECT * FROM tb03_itoken where tb03_id = '"+ Integer.parseInt(txCodigo.getText()) +"' and tb03_minuto = 1"; 
+        objetoBD.conectar();
+       
+        ResultSet rs = statement.executeQuery(sql);
+        
+        if (!rs.next())
+        {
+           JOptionPane.showMessageDialog(null, "Consulta Invalida");        
+           return;
+        }
+        else
+            {
+            Image img = Toolkit.getDefaultToolkit().createImage(rs.getBytes("tb03_foto"));
+            ImageIcon foto = new ImageIcon(new ImageIcon(img).getImage().getScaledInstance(93, 126, Image.SCALE_DEFAULT));
+            lbFoto.setIcon(foto); 
+            }
+        
+        objetoBD.desconectar();
+        statement.close(); 
+        }
+               
+        catch (Exception e)
+        {
+           System.out.println(e.getMessage());
+        }     
+
