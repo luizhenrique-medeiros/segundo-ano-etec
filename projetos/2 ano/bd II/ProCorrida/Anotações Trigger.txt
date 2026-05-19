@@ -1,0 +1,35 @@
+INSERT INTO `bd_biblioteca`.`tb01_usuarios` (`TB01_Cod_User`, `TB01_Nome`, `TB01_Data_Nasc`, `TB01_Sexo`, `TB01_CPF`, `TB01_RG`)
+VALUES ('1001', 'Sergio', '1961-07-15', 'M', '05173197803', '9694367')
+
+
+BEGIN
+INSERT INTO tb01_usuarios
+SET TB01_Cod_User = 1001,
+    TB01_Nome = 'Sergio',
+    TB01_Data_Nasc = '1961-07-15',
+    TB01_Sexo = 'M',
+    TB01_CPF = '05173197803',
+    TB01_RG = '9694367'
+END
+
+
+BEGIN
+INSERT INTO tb99_auditoria
+SET tb99_tabela = 'tb01_usuarios',
+    tb99_data = now(),
+    tb99_oper = 'I';
+END
+
+BEGIN
+UPDATE tb01_usuarios
+SET TB01_Nome = 'Cristiane'
+WHERE TB01_Cod_User = 1001;
+END
+
+insert into tb06_log
+set tb06_data = now(),
+    tb06_hora = now(),
+    tb06_descricao = OLD.tb03_descricao
+
+para delete usar OLD
+

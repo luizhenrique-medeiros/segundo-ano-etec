@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Senhas</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/js.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Coluna Esquerda -->
+        <div class="left-panel">
+            <h3>CHAMADAS</h3>
+            <p id="chamadas"></p>
+            <div class="called-number"></div>
+        </div>
+
+        <!-- Área Central -->
+        <div class="center-panel">
+            <h2 class="attention"></h2>
+            <div class="monitor">
+                <p>Senha</p>
+                <br>
+                <p id="num"></p>
+                <h1 class="big-number"></h1>
+                <p>Guichê</p>
+                <br>
+                <p id="guiche"></p>
+                <h1 class="big-number"></h1>
+            </div>
+        </div>
+
+        <!-- Coluna Direita -->
+        <div class="right-panel">
+            <div class="ticket-box" id="mostesenha"></div>
+            <button class="call-button" id="buttonchama" onclick="pegaSenha()">CHAMAR</button>
+            <div class="etec-info">
+                <span>ETEC</span>
+                <img src="imagens/sus-removebg-preview.png" alt="ETEC Logo">
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

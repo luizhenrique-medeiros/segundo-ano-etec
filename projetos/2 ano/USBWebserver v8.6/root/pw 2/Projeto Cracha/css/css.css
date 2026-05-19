@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9f9f9;
+}
+
+.navbar {
+    background: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section, .cracha-section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.foto-preview {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+}
+
+.foto-cracha {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 1px solid #000;
+}
+
+.cracha-section {
+    text-align: center;
+    width: 250px;
+}
+
+.btns button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    background: #1976d2;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btns button:hover {
+    background: #0d47a1;
+}
+
+.emergencia {
+    color: red;
+    font-weight: bold;
+}
+
+ .cracha-section {
+            width: 300px;
+            height: 450px;
+            border: 1px solid #000;
+            margin: 20px auto;
+            padding: 15px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #fffde7;
+        }
+        .cracha-section h2 {
+            margin: 10px 0;
+        }
+        .cracha-section p {
+            font-size: 14px;
+            margin: 8px 0;
+        }
+        .treinamento {
+            color: red;
+            font-weight: bold;
+        }

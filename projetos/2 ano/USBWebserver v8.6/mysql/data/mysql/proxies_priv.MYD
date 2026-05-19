@@ -1,0 +1,50 @@
+ˇlocalhost                                                                                                                                                                           root                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Q›èœ2018-08-10 19:24:27 10832 [Note] Event Scheduler: Loaded 0 events
+2018-08-10 19:24:27 10832 [Note] G:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2018-09-28 19:27:02 2504 [Note] Event Scheduler: Loaded 0 events
+2018-09-28 19:27:02 2504 [Note] G:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2019-09-20 10:25:25 8488 [Note] Event Scheduler: Loaded 0 events
+2019-09-20 10:25:25 8488 [Note] I:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2020-09-29 08:50:36 6436 [Note] Event Scheduler: Loaded 0 events
+2020-09-29 08:50:36 6436 [Note] E:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2020-11-20 14:54:03 18144 [Note] Event Scheduler: Loaded 0 events
+2020-11-20 14:54:03 18144 [Note] E:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2020-12-07 16:20:01 8080 [Note] Event Scheduler: Loaded 0 events
+2020-12-07 16:20:01 8080 [Note] E:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2020-12-11 07:22:19 6136 [Note] Event Scheduler: Loaded 0 events
+2020-12-11 07:22:19 6136 [Note] E:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2021-06-01 10:11:38 8460 [Note] Event Scheduler: Loaded 0 events
+2021-06-01 10:11:38 8460 [Note] E:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2021-06-22 10:18:54 14784 [Note] Event Scheduler: Loaded 0 events
+2021-06-22 10:18:54 14784 [Note] E:\Arquivos\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2024-07-26 07:43:20 6968 [Note] Event Scheduler: Loaded 0 events
+2024-07-26 07:43:20 6968 [Note] E:\Programas\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2025-05-05 11:05:31 8796 [Note] Event Scheduler: Loaded 0 events
+2025-05-05 11:05:31 8796 [Note] F:\USBWebserver v8.6/mysql/bin/mysqld_usbwv8.exe: ready for connections.
+Version: '5.6.13'  socket: ''  port: 3307  MySQL Community Server (GPL)
+2025-05-05 11:05:40 8796 [Warning] InnoDB: Cannot open table luiz_guiche/tb02_usuario from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 1dsa_nathan_bdpizzaria/tb01_cardapio_pizza from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 1dsa_nathan_bdpizzaria/tb02_pedidos from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 1dsa_nathan_bdpizzaria/tb03_clientes from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 1dsa_nathan_bdpizzaria/tb04_funcionarios from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 1dsa_nathan_bdpizzaria/tb05_bairros from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 1dsa_nathan_bdpizzaria/tb06_pizzaria from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 2dsa_nathan_bd_evento/tb01_evento from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table 2dsa_nathan_bd_evento/tb02_organizador from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb01_clientes from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb02_categoria_clientes from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb03_corretores from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb04_comprar_propriedades from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb05_alugar_propriedades from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb06_categoria_pagamento from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table dream_house/tb07_categoria_propriedades from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2025-05-05 11:06:30 8796 [Warning] InnoDB: Cannot open table teste/tb05_status from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Totem de Senha</title>
+    <script src="JS/js.js" defer></script> <!-- Aqui estamos importando o JS -->
+    <link rel="stylesheet" href="css/css.css">
+    <style>
+        /* CSS apenas para a exibição da senha gerada */
+        .ticket-number {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            
+        }
+        .ticket-info {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .ticket-info span {
+            display: block;
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-box">
+            <div class="priority">
+                <img src="imagens/atendimento preferencial.png" alt="Atendimento Preferencial">
+            </div>
+            <div class="ticket-dispenser">
+                <img src="imagens/distribuidor de senhas.jpg" alt="Distribuidor de Senhas">
+            </div>
+            <div class="take-ticket">
+                <button onclick="pegaSenha('N')">RETIRE SUA SENHA (para normais)</button>
+            </div>
+            <br>
+            <div class="take-ticket">
+                <button onclick="pegaSenha('P')">RETIRE SUA SENHA (para deficientes)</button>
+            </div>
+            <div class="ticket">
+                <div class="ticket-header">
+                    <img src="imagens/etec.jpg" alt="ETEC Logo">
+                    <span></span>
+                </div>
+                <div class="ticket-number" id="ticket-number"></div> <!-- Aqui vai a senha gerada -->
+                <div class="ticket-info" >
+                    <span>Senha gerada: </span>
+                    <label id="num"></label> <!-- Aqui vai o número da senha -->
+                </div>
+            </div>
+        </div>
+
+        <div class="right-box">
+            <div class="ticket-number-display">
+                <!-- Aqui será exibido o número da senha -->
+            </div>
+            <div class="etec-info" >
+                <img src="imagens/etec.jpg" alt="ETEC Logo">
+                <span>ETEC</span>
+                <label id="comprovate"></label>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>

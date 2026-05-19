@@ -1,0 +1,49 @@
+// Le o Banco de Dados carrega dados
+====================================
+
+	function pegaComanda()
+	{
+
+	    var xmlhttp = new XMLHttpRequest();
+
+		//Prepara link para acionar PHP
+		
+		var url = "http://localhost:8080/php/pegaComanda.php";
+		
+		xmlhttp.onreadystatechange = function () 
+		{
+			
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+			{
+				ConectaServidor(xmlhttp.responseText);
+			}
+		}
+		
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+			
+		function ConectaServidor(response) {
+			 
+			var dados = JSON.parse(response); //faz a conversão do texto da WEB para JSON
+			var i=0;
+			var conteudo = "";
+			var linhas;
+			
+			// O for() vai montar a linha (<TR>) da tabela
+			for (i = 0; i < dados.length; i++) //dados.length retorna o tamanho do vetor.
+			{
+				if (dados[i].tb03_comanda == "vazio")
+				{					
+					alert ("Falta registro de comanda")
+
+				}
+				else
+				{
+					comanda = dados[i].tb03_comanda; 
+					comanda++;
+					document.getElementById('prkilo').innerHTML = "R$ " + dados[i].tb03_vlkilo;
+					prkilo = dados[i].tb03_vlkilo;
+				}
+			}				
+		}		
+	}
