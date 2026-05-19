@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>WebCracha</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <span>WebCracha</span>
+        <button class="home-btn">Home</button>
+    </nav>
+
+    <main>
+        <section class="form-section">
+            <h2>Cadastro de Colaboradores</h2>
+            <h3>Geração de Crachás</h3>
+
+            <label>TA:</label>
+            <input type="text" id="ta"><br>
+
+            <label>Nome:</label>
+            <input type="text" id="nome"><br>
+
+            <label>Função:</label>
+            <input type="text" id="funcao"><br>
+
+            <label>Apto a:</label>
+            <input type="text" id="apto"><br>
+
+            <label>Vencimento:</label>
+            <input type="date" id="vencimento"><br>
+
+            <label>Treinamento:</label>
+            <input type="date" id="treinamento"><br>
+
+            <div id="fotoPreview" class="foto-preview">Foto</div>
+            <input type="file" id="fotoInput" accept="image/*" style="display:none">
+
+            <div class="btns">
+                <button onclick="consulta()">CONSULTA</button>
+                <button onclick="grava()">GRAVA</button>
+                <button onclick="geraCracha()">GERA CRACHA</button>
+                <button onclick="imprimirCracha()">IMPRIME</button>
+                <button onclick="document.getElementById('fotoInput').click()">FOTO</button>
+            </div>
+        </section>
+
+        <!-- Frente do Crachá -->
+        <section class="cracha-section" id="cracha">
+            <h2>Etec</h2>
+            <img id="crachaFoto" src="" alt="Foto" class="foto-cracha">
+            <p id="crachaNome">Nome</p>
+            <p id="crachaFuncao">Função</p>
+            <canvas id="qrcode"></canvas>
+            <p class="emergencia">Emergência: 0800 770 80 70</p>
+        </section>
+        <!-- Verso do Crachá -->
+       <section class="cracha-section" id="crachaVerso">
+            <p><b>Válido Somente em Serviço</b></p>
+            <p>O portador deste crachá realizou os<br>
+            exames médicos e o treinamento<br>
+            necessário para:</p>
+
+            <p><b>Trabalho em Altura</b></p>
+            <p>O trabalhador está ciente dos<br>
+            procedimentos de segurança a serem<br>
+            seguidos.</p>
+
+            <p class="treinamento">Treinamento válido por 02 anos.</p>
+
+            <p>Em caso de Extravio procurar o setor de<br>
+            Segurança do Trabalho</p>
+        </section>
+    </main>
+
+    
+</body>
+</html>

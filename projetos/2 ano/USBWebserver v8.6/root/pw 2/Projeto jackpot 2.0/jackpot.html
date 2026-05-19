@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+       
+    <meta charset="UTF-8">
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caça-Níqueis</title>
+       
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+        <div class="container">
+                <h1>Caça-Níqueis</h1>
+                <div class="slots">
+                        <div class="slot" id="slot1"></div>
+                        <div class="slot" id="slot2"></div>
+                        <div class="slot" id="slot3"></div>
+                    </div>
+
+                <div class="controls">
+                        <button id="lever">🎰 Puxar Alavanca</button>
+                        <div class="bet-buttons">
+                                <button class="bet" data-value="2">R$ 2</button>
+                                <button class="bet" data-value="5">R$ 5</button>
+                                <button class="bet" data-value="10">R$ 10</button>
+                            </div>
+                        <div class="current-bet">Valor Apostado: R$ <span id="currentBet">0</span></div>
+                    </div>
+
+                <div class="results">
+                        <div>Valor Ganho: R$ <span id="valorGanho">0</span></div>
+                        <div>Valor Perdido: R$ <span id="valorPerdido">0</span></div>
+                        <div>Pessoas que Apostaram: <span id="totalApostas">0</span></div>
+                    </div>
+            </div>
+
+       
+    <script src="java/java.js"></script>
+</body>
+
+</html>
