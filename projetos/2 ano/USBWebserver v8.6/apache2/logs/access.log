@@ -1,0 +1,12 @@
+::1 - - [25/Feb/2026:21:34:40 -0300] "GET / HTTP/1.1" 200 247
+::1 - - [25/Feb/2026:21:34:40 -0300] "GET /favicon.ico HTTP/1.1" 404 209
+::1 - - [25/Feb/2026:21:34:42 -0300] "GET /pw%202/ HTTP/1.1" 200 920
+::1 - - [25/Feb/2026:21:34:45 -0300] "GET /pw%202/Projeto%20Cracha/ HTTP/1.1" 200 511
+::1 - - [25/Feb/2026:21:34:50 -0300] "GET /pw%202/Projeto%20Cracha/cracha.html HTTP/1.1" 200 2791
+::1 - - [25/Feb/2026:21:34:50 -0300] "GET /pw%202/Projeto%20Cracha/css/css.css HTTP/1.1" 200 1668
+::1 - - [25/Feb/2026:21:34:50 -0300] "GET /pw%202/Projeto%20Cracha/js/script.js HTTP/1.1" 200 6896
+::1 - - [25/Feb/2026:21:46:04 -0300] "GET / HTTP/1.1" 200 247
+::1 - - [25/Feb/2026:21:46:06 -0300] "GET /pw%202/ HTTP/1.1" 200 920
+::1 - - [25/Feb/2026:21:46:11 -0300] "GET /pw%202/projeto1.1%20(cadastro)/ HTTP/1.1" 200 415
+::1 - - [25/Feb/2026:21:46:13 -0300] "GET /pw%202/projeto1.1%20(cadastro)/cadastro.html HTTP/1.1" 200 845
+::1 - - [25/Feb/2026:21:46:13 -0300] "GET /pw%202/projeto1.1%20(cadastro)/css/estilo.css HTTP/1.1" 200 975
